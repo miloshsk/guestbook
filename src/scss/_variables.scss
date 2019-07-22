@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+// Colors
+$c-black: #373A36;
+$c-white: #E6E2DD;
+$c-red: #D48166;
+$c-red-dark: #AB5438;
+$c-red-error: #ff0033;
+$c-greyDark: #3D403C;
+$c-green: #4BB543;
+// Sizes
+$fz-min: 13px;
+$fz-main: 16px;
+$fz-xmain: 18px;
+
+// Fonts
+$font:(
+		main: ('Roboto', sans-serif),
+		weight: 400,
+		size: $fz-main,
+		line-height: 1.4
+);
+$breakpoints:(
+		xs: 767px,
+		sm: 991px
+);

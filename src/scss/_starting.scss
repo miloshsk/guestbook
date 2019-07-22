@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+html,
+body {
+	position: relative;
+	height: 100%;
+	max-width: 100%;
+	width: 100%;
+}
+body{
+	font: map-get($font, weight) #{map-get($font, size)}/#{map-get($font, line-height)} map-get($font, main);
+	color: $c-black;
+	min-width: 320px;
+	background: $c-white;
+	@include media('xs') {
+		font-size: $fz-min;
+	}
+}
+.wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	max-width: 100%;
+	background: transparent;
+	&__content{
+		flex: 1 0 auto;
+		overflow: hidden;
+		min-width: 0;
+	}
+}
+.container{
+	position: relative;
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	z-index: 1;
+
+	@include media ('sm-min', 'sm-max') {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	@include media ('xs') {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+input, textarea {
+	background-color: transparent;
+}
