@@ -1,29 +1,6 @@
-# guest-book
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Пример работы можно посмотреть тут: [перейти к примеру](https://nervous-einstein-50b1b6.netlify.com//)
+# Установка через консоль
+1. Клонировать репозиторий  ```https://github.com/miloshsk/guestbook```
+2. Перейти в созданную директорию ```cd guestbook```
+3. Установить зависимости ```npm i```
+4. Запустить ```npm run serve```
